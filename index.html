@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css"/>
+    <script src="calculator.js"></script>
 </head>
 <body>
-
+<div id="root">
+<table id="calc-container" cellspacing="0">
+    <tbody>
+    <tr>
+        <td colspan="4"><div id="input-result">0</div></td>
+    </tr>
+    <tr>
+        <td><button class="buttons" value="7">7</button></td>
+        <td><button class="buttons" value="8">8</button></td>
+        <td><button class="buttons" value="9">9</button></td>
+        <td><button class="buttons" value="+">+</button></td>
+    </tr>
+    <tr>
+        <td><button class="buttons" value="4">4</button></td>
+        <td><button class="buttons" value="5">5</button></td>
+        <td><button class="buttons" value="6">6</button></td>
+        <td><button class="buttons" value="-">-</button></td>
+    </tr>
+    <tr>
+        <td><button class="buttons" value="1">1</button></td>
+        <td><button class="buttons" value="2">2</button></td>
+        <td><button class="buttons" value="3">3</button></td>
+        <td><button class="buttons" value="x">x</button></td>
+    </tr>
+    <tr>
+        <td><button class="buttons" value="0">0</button></td>
+        <td><button class="buttons" value=".">.</button></td>
+        <td><button class="buttons" value="AC">AC</button></td>
+        <td><button class="buttons" value="=">=</button></td>
+    </tr>
+    </tbody>
+</table>
+</div>
 </body>
 </html>
