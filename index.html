@@ -5,41 +5,44 @@
 
     <title>Calculator</title>
     <link rel="stylesheet" href="calculator.css"/>
-    <script src="calculator.js"></script>
 </head>
 <body>
 <div id="root">
 <table id="calc-container" cellspacing="0">
     <tbody>
     <tr>
-        <td colspan="4"><div id="input-result">0</div></td>
+        <td colspan="4"><input id="input-result" disabled/></td>
     </tr>
     <tr>
-        <td><button class="buttons" value="7">7</button></td>
-        <td><button class="buttons" value="8">8</button></td>
-        <td><button class="buttons" value="9">9</button></td>
-        <td><button class="buttons" value="+">+</button></td>
+        <td><button id="7" class="buttons" value="7">7</button></td>
+        <td><button id="8" class="buttons" value="8">8</button></td>
+        <td><button id="9" class="buttons" value="9">9</button></td>
+        <td><button id="+" class="buttons" value="+">+</button></td>
     </tr>
     <tr>
-        <td><button class="buttons" value="4">4</button></td>
-        <td><button class="buttons" value="5">5</button></td>
-        <td><button class="buttons" value="6">6</button></td>
-        <td><button class="buttons" value="-">-</button></td>
+        <td><button id="4" class="buttons" value="4">4</button></td>
+        <td><button id="5" class="buttons" value="5">5</button></td>
+        <td><button id="6" class="buttons" value="6">6</button></td>
+        <td><button id="-" class="buttons" value="-">-</button></td>
     </tr>
     <tr>
-        <td><button class="buttons" value="1">1</button></td>
-        <td><button class="buttons" value="2">2</button></td>
-        <td><button class="buttons" value="3">3</button></td>
-        <td><button class="buttons" value="x">x</button></td>
+        <td><button id="1" class="buttons" value="1">1</button></td>
+        <td><button id="2" class="buttons" value="2">2</button></td>
+        <td><button id="3" class="buttons" value="3">3</button></td>
+        <td><button id="x" class="buttons" value="*">x</button></td>
     </tr>
     <tr>
-        <td><button class="buttons" value="0">0</button></td>
-        <td><button class="buttons" value=".">.</button></td>
-        <td><button class="buttons" value="AC">AC</button></td>
-        <td><button class="buttons" value="=">=</button></td>
+        <td><button id="0" class="buttons" value="0">0</button></td>
+        <td><button id="AC" class="buttons" value="AC">AC</button></td>
+        <td><button id="=" class="buttons" value="=">=</button></td>
+        <td><button id="/" class="buttons" value="/">/</button></td>
+    </tr>
+    <tr>
+        <td><button id="." class="buttons" value=".">.</button></td>
     </tr>
     </tbody>
 </table>
 </div>
+<script src="calculator.js"></script>
 </body>
 </html>
